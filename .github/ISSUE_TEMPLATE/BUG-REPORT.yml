@@ -6,10 +6,19 @@ labels: [
 ]
 body:
   - type: textarea
-    id: description
+    id: expected
     attributes:
-      label: "Description"
-      description: Please enter an explicit description of your issue
-      placeholder: Short and explicit description of your incident...
+      label: "Expected Behavior"
+      description: Tell us what should happen
+      placeholder: Short and explicit description of what you expected to happen
     validations:
       required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: "Current Behavior"
+      description: Tell us what happens instead of the expected behavior.
+      placeholder: Short and explicit description of what is happening instead.
+    validations:
+      required: true
+
