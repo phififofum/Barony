@@ -2,7 +2,7 @@ name: "✨ Feature Request"
 description: Suggest a low-friction gameplay, content, UI, or QoL improvement.
 title: "✨ [FEATURE] - <title>"
 labels: [
-  "feature"
+  "enhancement"
 ]
 body:
   - type: markdown
